@@ -1,16 +1,36 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Search any city and see its current weather.
 
-Currently, two official plugins are available:
+🔗 **Live demo:** https://react-weather-app-three-ebon.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Search for any city
+- Current temperature and weather conditions
+- Humidity and wind speed
+- Minimum and maximum temperatures
+- Weather icons
+- Loading indicator and error messages for invalid cities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- CSS
+- Open-Meteo API (free, no API key needed)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+```bash
+git clone https://github.com/AwaisTasleem/react-weather-app.git
+cd YOUR-REPO-NAME
+npm install
+npm run dev
+```
+
+Open the address shown in the terminal. If your project uses Create React App, run `npm start` instead.
+
+## Credits
+
+Built by [Awais Tasleem](https://github.com/AwaisTasleem). Weather data from [Open-Meteo](https://open-meteo.com/).
